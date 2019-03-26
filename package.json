@@ -2,8 +2,7 @@
   "name": "git-changelog-parser",
   "version": "1.0.0",
   "description": "Parse Git `ChangeLog.md / History.md` to JSON",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "egg-bin": "^4.12.0",
@@ -26,7 +25,10 @@
   "ci": {
     "version": "8, 10"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:atian25/git-changelog-parser.git"
